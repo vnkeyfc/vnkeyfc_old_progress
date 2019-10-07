@@ -11,7 +11,7 @@
     <link defer rel="stylesheet" href="static/bootstrap.min.css">
     <link defer rel="stylesheet" href="static/treeview.css">
 <style type="text/css">.footer{padding:0.4em 0em; background-color: #494949; text-align: center;color: white; box-sizing: border-box; font-style: italic;clear: both; position: relative; margin-top: 500px;}
-table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {    top: 9px;    left: 4px;    height: 14px;    width: 14px;    display: block;    position: absolute;    color: #666;    border: 0px solid white;    border-radius: 2px;    box-shadow: 0 0 0 1px #ddd;    box-sizing: content-box;    text-align: center;    font-family: 'Courier New', Courier, monospace;    line-height: 14px;    content: '+';    background-color: #fff;}table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {    content: '-';    background-color: #eee;}.list-group-item {display: flex; align-items: center;}.progress {width: 100%; margin: 10px;padding: 0px;} body{background-image: url('images/rewrite_plus_bg.jpg')}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {    top: 9px;    left: 4px;    height: 14px;    width: 14px;    display: block;    position: absolute;    color: #666;    border: 0px solid white;    border-radius: 2px;    box-shadow: 0 0 0 1px #ddd;    box-sizing: content-box;    text-align: center;    font-family: 'Courier New', Courier, monospace;    line-height: 14px;    content: '+';    background-color: #fff;}table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {    content: '-';    background-color: #eee;}.list-group-item {display: flex; align-items: center;}.progress {margin: 2px;padding: 0px;}
 </style>        
 <meta name="description" content="Hello WORLD :))) This is my second webserver. Come on guys, let's discover this place :)">
 
@@ -19,21 +19,89 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataT
   </head>
 <body id="body">
   <div class="container-fluid row justify-content-md-center" >
-    <img src="images/Banner.png" alt="" class="img-thumbnail" class="">
+    <!-- <img src="images/Banner.png" alt="" class="img-thumbnail" class=""> -->
     <h1 class="display-4 d-flex justify-content-center col-12"> Vietnam Key FanClub </h1>
     <p class="lead d-flex col-md-9 col-sm-12"> Xin chào mọi người, Team mình trong thời gian qua có khá nhiều project ngâm dấm (ngâm rượu, ngâm cao hổ cốt)  làm mọi người hoang mang. Nên bây giờ tụi mình sẽ cập nhật tình trạng dịch của team lên đây nhé.</p>
-    <div class="col-md-11 col-sm-12">
+
+
+
+  <div class="col-11">
+    <div class="col-md-3 col-sm-12 justify-content-center border border-primary rounded" data-toggle="collapse" data-target="#demo">
+      <img src="images/Angel_Beats.jpg" alt="" class="mx-auto d-block pt-2 rounded">
+        <p class="text-center lead" style="align-self: flex-end;">Angel Beats! 1st beat</p>
+      <div id="demo" class="collapse ">
+        <div class="row" data-toggle="collapse" data-target="#demo1">
+          <p class="col-2" style="align-self: flex-end;">Dịch:</p>
+          <div class="progress col-9">
+            <div class="progress-bar text-dark p-2" role="progressbar" aria-valuenow="18" aria-valuemin="0" aria-valuemax="100">18.43% ~~~~ 41856/227055</div>
+          </div>
+        </div>
+        <div class="row" data-toggle="collapse" data-target="#demo1">
+          <p class="col-2" style="align-self: flex-end;">Tech:</p>
+          <div class="progress col-9">
+            <div class="progress-bar text-dark p-2" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+          </div>
+        </div>
+
+      </div> 
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+        <div class="col-md-11 col-sm-12">
       <div class="row justify-content-md-middle border border-primary rounded bg-light" data-toggle="collapse" data-target="#demo">
         <p class="col-md-2 col-sm-12" style="align-self: flex-end;">Angel Beats! 1st beat</p>
         <div class="progress col-8">
-          <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">18.43%</div>
+          <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">18.43% __________ 41856/227055</div>
         </div>
         <div class="col" style="align-self: center">
           <span class="badge badge-light text-wrap">41856/227055</span>
         </div>
       </div>
       <div id="demo" class="collapse">
-<!-- 
+
         <div class="row justify-content-md-middle border border-primary rounded bg-light" data-toggle="collapse" data-target="#demo1">
           <p class="col-2" style="align-self: flex-end;">Angel Beats! 1st beat</p>
           <div class="progress col-8">
@@ -57,12 +125,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, table.dataT
           <div id="demo2" class="collapse">
           </div> 
 
-        </div>  -->
-
+        </div> 
+ -->
       </div> 
-
-
-
 
     </div>
 
